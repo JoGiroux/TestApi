@@ -7,7 +7,7 @@ git push
 #from the submodule directory
 git fetch                          
 git checkout <SHA_A>                                    
-git commit -m "Lock commit"
+git commit -m "Lock submodule"
 git push
 
 
