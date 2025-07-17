@@ -1,0 +1,15 @@
+git submodule add https://github.com/orga/A.git
+git add .gitmodules
+git commit -m "Config commit"
+git push
+
+
+
+git fetch                           
+git checkout <SHA_A>                                    
+git commit -m "Lock commit"
+git push
+
+
+
+git clone --recurse-submodules <url-de-B>
