@@ -4,7 +4,6 @@ git commit -m "Config commit"
 git push
 
 
-#from the submodule directory
 git fetch                          
 git checkout <SHA_A>                                    
 git commit -m "Lock submodule"
